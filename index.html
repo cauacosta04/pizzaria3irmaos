@@ -1,133 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio - Pizzaria 3 Irmãos</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff8f0;
-            margin: 0;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        header h1 {
-            color: #d62828;
-            font-size: 2.5em;
-            margin: 0;
-        }
-        section {
-            margin-bottom: 40px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            background: #fff;
-            overflow: hidden;
-        }
-        section img {
-            width: 100%;
-            height: auto;
-        }
-        section h2 {
-            background: #d62828;
-            color: #fff;
-            margin: 0;
-            padding: 10px;
-            font-size: 1.5em;
-        }
-        ul {
-            list-style: none;
-            padding: 20px;
-            margin: 0;
-        }
-        ul li {
-            padding: 10px 0;
-            border-bottom: 1px solid #eee;
-            display: flex;
-            justify-content: space-between;
-        }
-        ul li:last-child {
-            border-bottom: none;
-        }
-        .preco {
-            color: #2a9d8f;
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      color: #333;
+    }
+    header {
+      background-color: #e63946;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      margin: 40px auto;
+      max-width: 800px;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    section h2 {
+      margin-top: 0;
+      color: #e63946;
+      font-size: 24px;
+      border-bottom: 2px solid #e63946;
+      padding-bottom: 10px;
+    }
+    section img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #e63946;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
 
-<header>
-    <h1>Pizzaria 3 Irmãos</h1>
-    <p><strong>Endereço:</strong> Rua Benedito Calixto, 79 - loja B</p>
-    <p><strong>Horário:</strong> Quarta, Quinta e Domingo das 18h às 00h | Sexta e Sábado das 18h às 2h</p>
-    <p><strong>Telefone:</strong> (inserir telefone aqui)</p>
-</header>
+  <header>
+    <h1>Cardápio Especial</h1>
+  </header>
 
-<section>
-    <img src="https://images.unsplash.com/photo-1601924582975-4cc5b8dc97e4?auto=format&fit=crop&w=800&q=80" alt="Pizzas">
-    <h2>PIZZAS</h2>
-    <ul>
-        <li><strong>Média</strong></li>
-        <li>Calabresa <span class="preco">R$ 30,00</span></li>
-        <li>Marguerita <span class="preco">R$ 30,00</span></li>
-        <li>Frango com Catupiry <span class="preco">R$ 35,00</span></li>
-        <li><strong>Grande</strong></li>
-        <li>Calabresa <span class="preco">R$ 40,00</span></li>
-        <li>Marguerita <span class="preco">R$ 40,00</span></li>
-        <li>Frango com Catupiry <span class="preco">R$ 45,00</span></li>
-        <li><strong>Gigante</strong></li>
-        <li>Calabresa <span class="preco">R$ 50,00</span></li>
-        <li>Marguerita <span class="preco">R$ 50,00</span></li>
-        <li>Frango com Catupiry <span class="preco">R$ 55,00</span></li>
-    </ul>
-</section>
+  <section>
+    <h2>Pizza</h2>
+    <img src="D69F51E1-2BB0-4A08-A9B4-C11E93FA8635.jpeg" alt="Pizza">
+  </section>
 
-<section>
-    <img src="https://images.unsplash.com/photo-1603386329225-868fbd86a10c?auto=format&fit=crop&w=800&q=80" alt="Bebidas">
-    <h2>BEBIDAS</h2>
-    <ul>
-        <li>Refrigerante Lata <span class="preco">R$ 5,00</span></li>
-        <li>Refrigerante 2L <span class="preco">R$ 10,00</span></li>
-        <li>Água <span class="preco">R$ 3,00</span></li>
-        <li>Cerveja Long Neck <span class="preco">R$ 7,00</span></li>
-        <li>Suco Natural <span class="preco">R$ 6,00</span></li>
-    </ul>
-</section>
+  <section>
+    <h2>Bebidas</h2>
+    <img src="54B49AF9-9F3B-463E-96EF-82FD86D8FC30.jpeg" alt="Bebidas">
+  </section>
 
-<section>
-    <img src="https://images.unsplash.com/photo-1573878735237-1fbc961cd5fc?auto=format&fit=crop&w=800&q=80" alt="Petiscos">
-    <h2>PETISCOS</h2>
-    <ul>
-        <li>Batata Frita <span class="preco">R$ 15,00</span></li>
-        <li>Calabresa Acebolada <span class="preco">R$ 20,00</span></li>
-        <li>Frango a Passarinho <span class="preco">R$ 25,00</span></li>
-        <li>Polenta Frita <span class="preco">R$ 15,00</span></li>
-    </ul>
-</section>
+  <section>
+    <h2>Petiscos</h2>
+    <img src="972068E2-4176-4030-9CBE-F5C8C6EAE884.jpeg" alt="Petiscos">
+  </section>
 
-<section>
-    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" alt="Combos">
-    <h2>COMBOS</h2>
-    <ul>
-        <li>Combo 1: Pizza Média + Refrigerante 2L <span class="preco">R$ 35,00</span></li>
-        <li>Combo 2: Pizza Grande + Batata Frita + Cerveja <span class="preco">R$ 55,00</span></li>
-        <li>Combo Família: Pizza Gigante + 2 Refrigerantes 2L + Petisco <span class="preco">R$ 90,00</span></li>
-    </ul>
-</section>
+  <section>
+    <h2>Combos</h2>
+    <img src="28A88ED3-DEA6-4D32-9DAD-DA9BB414DBC8.jpeg" alt="Combos">
+  </section>
 
-<section>
-    <img src="https://images.unsplash.com/photo-1618218831741-281ad7b3c751?auto=format&fit=crop&w=800&q=80" alt="Caldos">
-    <h2>CALDOS</h2>
-    <ul>
-        <li>Caldo de Mandioca <span class="preco">R$ 10,00</span></li>
-        <li>Caldo Verde <span class="preco">R$ 10,00</span></li>
-        <li>Caldo de Feijão <span class="preco">R$ 10,00</span></li>
-    </ul>
-</section>
+  <section>
+    <h2>Caldos</h2>
+    <img src="973CE22E-616B-4A4F-A16F-5390FC4C34D9.jpeg" alt="Caldos">
+  </section>
+
+  <section>
+    <h2>Sobremesas</h2>
+    <img src="45E4A491-9A42-4A75-9BC0-64BD170216EE.jpeg" alt="Sobremesas">
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Todos os direitos reservados</p>
+  </footer>
 
 </body>
 </html>
